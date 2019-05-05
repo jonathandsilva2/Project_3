@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+article {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+@media only screen and (min-width: 480px) {
+
+    .media {
+        width: 100%;
+    }
+    
+}
+@media only screen and (min-width: 600px) {
+
+    .media {
+        width:33%;
+    }
+}
+@media only screen and (min-width: 1240px) {
+
+    .media {
+        width: 25%;
+    }
+}

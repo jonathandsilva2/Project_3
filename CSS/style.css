@@ -1,28 +1,58 @@
 body {
   background-color: black;
-  color: white;
+  color: #ffffff;
   text-align: center;
+  font-family: "Open Sans";
+  font-weight: 100;
+}
+
+select {
+  background-color: white;
 }
 
 article {
-  width: 100%;
-  display: flex;
+  grid-template-columns: 1fr;
+  display: grid;
   flex-wrap: wrap;
 }
 
-@media only screen and (min-width: 480px) {
-  .media {
-    width: 100%;
+a:hover p {
+  display: flex;
+}
+
+p:hover {
+  animation-name: resize;
+  animation-duration: 0.2s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  visibility: visible;
+}
+
+@keyframes resize {
+  0% {
+    margin-bottom: 0%;
+  }
+  100% {
+    margin-bottom: 90%;
   }
 }
+footer {
+  color: #c2c2c2;
+  background-color: blue;
+  position: relative;
+  top: 100%;
+}
+
 @media only screen and (min-width: 600px) {
-  .media {
-    width: 33%;
+  article {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 @media only screen and (min-width: 1240px) {
-  .media {
-    width: 25%;
+  article {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 

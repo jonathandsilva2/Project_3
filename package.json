@@ -1,0 +1,26 @@
+{
+  "name": "p3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathandsilva2/Project_3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathandsilva2/Project_3/issues"
+  },
+  "homepage": "https://github.com/jonathandsilva2/Project_3#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^5.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-terser": "^1.1.7"
+  }
+}

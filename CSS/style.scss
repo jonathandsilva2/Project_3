@@ -155,7 +155,7 @@ footer {
     img {
         grid-column: 1/2;
         grid-row: 1/3;
-     height: 75%;
+     height: 100%;
      
     }
 
@@ -169,7 +169,35 @@ footer {
         grid-row: 2/2;
         width: 75%;
     }
-
+    .newSection {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 7fr  ;
+        grid-template-rows: 1fr 1fr;
+      }
+    
+      .newImg {
+        grid-column: 1/3;
+        grid-row: 1/3;
+        height: 50%;
+        align-self: center;
+        justify-self: center;
+        
+        }
+        
+        .newH6 {
+        justify-self: left;
+        align-self: end;
+        grid-column: 3/4;
+        grid-row: 1/2;
+        }
+        
+        .newSelect {
+        height: 30px;
+        grid-column:3/4;
+        grid-row: 2/3;
+        width: 75%;
+        justify-self: left;
+        }
 
     
 
